@@ -25,3 +25,24 @@ documentation is horrific of random in c++
 c std io , use random
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jan 28, 2025 Wednesday
+printLane()
+given a horse number and the array of horses
+loop from zero to TRACK_LENGTH
+  if the current loop index is equal to horsevalue
+    print the horse id
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+advance()
+given a horse number and the array of horses
+roll a 0 or 1 value, put it in coin
+add coin to the horse;s position value in the array
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+make an array 5 0 values, call it horses
+set keepGoing true
+
+while keepgoing:
+  run through each horse in array:
+    advance that horse
+    print that horse's lane
